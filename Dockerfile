@@ -3,7 +3,7 @@
 FROM alpine:3.6 as build
 MAINTAINER Diederik van der Boor <opensource@edoburu.nl>
 
-ARG HELM_VERSION=v2.9.0
+ARG HELM_VERSION=v2.7.2
 ARG KUBE_VERSION=v1.10.2
 
 RUN apk add --update --no-cache ca-certificates curl tar gzip && \
